@@ -1,0 +1,13 @@
+\section{{\itshape Mining Twitter for Adverse Drug Reaction Mentions:} A Corpus and Classification Benchmark(Research Review)}
+
+In this section, we review and try to understand the work of {\citet{gmctw14}} on the same problem. The corpus was manually annotated and created through extraction of tweets related to 74 drugs, using their brand and generic names, and phonetic misspellings. These were annotated for the presence of ADRs (a binary attribute for each tweet), the location/span of the reaction mentions, and the UMLS concept IDs for the ADR mentions. Further, they extended the drug list to include misspelled drug names. This was critical to obtaining relevant tweets, as drug names are often misspelled in social media. They generated the misspellings through a phonetic spelling filter.
+
+Additionally, the corpus was not only set for the presence or absence of ADR mentions, but also to identify the span of the expressions conveying individual ADRs, and to map them to formal medical terminology. Two annotators were manually annotated the processed tweets: binary annotation of ADRs and full ADR annotations. The result would be for, 'weight gain', 'gained 20 pounds', 'put on too much weight', or 'fat fat fat' would all be annotated to a general concept ID for 'weight gain'. 
+
+For the ADR detection, they used NB and SVM classifiers for the binary classification task. In SVM only the was used linear kernel with no attempts at parameter optimisation. Three sub datasets were created changing the proportions of HasADR and NoADR. In dataset1 both the parameters were equal, in the second HasADR was greater than NoADR and in the third NoADR was greater. 
+
+Mapping an annotated concept to semantically equivalent UMLS concept IDs for an agreement was needed. Inter-annotator agreement (IAA) using Cohen's kappa was computed for binary annotations. The largest source of error came from the differences in concept IDs chosen. Some term used by the user, such as 'hangover' may or may not be an ADR. Also the span has to be considered.
+
+Performance of accuracy in SVM and NB are compared. Majority labelling is performed in which every test instance to the majority class in the test set. Both classifiers perform better than the majority labelling baseline. An observation that the classifier accuracies increase slightly as the proportion of the majority class increases is made. The study is concluded as a stepping stone into classification performance while maintaining the goal of deep semantic learning on tweets. 
+
+

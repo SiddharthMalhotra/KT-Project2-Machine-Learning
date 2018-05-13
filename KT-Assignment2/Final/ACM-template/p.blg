@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: p.aux
+The style file: abbrvnat.bst
+Database file #1: strings-shrt.bib
+Database file #2: local.bib
+Warning--I didn't find a database entry for "is"
+You've used 3 entries,
+            2773 wiz_defined-function locations,
+            623 strings with 5701 characters,
+and the built_in function-call counts, 1884 in all, are:
+= -- 167
+> -- 135
+< -- 3
++ -- 45
+- -- 42
+* -- 154
+:= -- 293
+add.period$ -- 12
+call.type$ -- 3
+change.case$ -- 23
+chr.to.int$ -- 3
+cite$ -- 6
+duplicate$ -- 77
+empty$ -- 120
+format.name$ -- 47
+if$ -- 396
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 3
+newline$ -- 26
+num.names$ -- 12
+pop$ -- 43
+preamble$ -- 1
+purify$ -- 20
+quote$ -- 0
+skip$ -- 74
+stack$ -- 0
+substring$ -- 58
+swap$ -- 19
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 33
+warning$ -- 0
+while$ -- 14
+width$ -- 0
+write$ -- 51
+(There was 1 warning)

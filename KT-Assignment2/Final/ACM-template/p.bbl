@@ -1,0 +1,34 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gouws et~al.(2011)Gouws, Metzler, Cai, and Hovy]{gm14}
+S.~Gouws, D.~Metzler, C.~Cai, and E.~Hovy.
+\newblock Contextual bearing on linguistic variation in social media.
+\newblock \emph{Proceedings of the Workshop on Languages in Social Media},
+  pages 20--29, 2011.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2021109.2021113}.
+
+\bibitem[R et~al.(2014)R, Pimpalkhute, Nikfarjam, Patki, Connor, Smith, Smith,
+  and Gonzalez]{cdt}
+G.~R, Pimpalkhute, P.~Nikfarjam, A.~Patki, K.~O. Connor, A.~Smith, K.~Smith,
+  and G.~Gonzalez.
+\newblock Mining twitter for adverse drug reaction mentions: a corpus and
+  classification benchmark.
+\newblock \emph{In Proceedings of the fourth workshop on building and
+  evaluating resources for health and biomedical text processing}, 2014.
+\newblock URL
+  \url{https://www.researchgate.net/profile/Abeed_Sarker/publication/280301158_Mining_Twitter_for_adverse_drug_reaction_mentions_a_corpus_and_classification_benchmark/links/56d205b608ae85c8234ae39d.pdf}.
+
+\bibitem[Sarker and Gonzalez(2015)]{gmctw14}
+A.~Sarker and G.~Gonzalez.
+\newblock Syntactic normalization of twitter messages.
+\newblock \emph{Portable automatic text classification for adverse drug
+  reaction detection via multi-corpus training. Journal of Biomedical
+  Informatics.}, pages 196--207, 2015.
+\newblock URL \url{https://www.ncbi.nlm.nih.gov/pubmed/25451103}.
+
+\end{thebibliography}
