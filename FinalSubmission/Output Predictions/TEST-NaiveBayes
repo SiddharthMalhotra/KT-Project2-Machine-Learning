@@ -1,0 +1,1886 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.misc.InputMappedClassifier -I -trim -W weka.classifiers.bayes.NaiveBayes
+Relation:     twitter-adr
+Instances:    3166
+Attributes:   94
+              id
+              allergic
+              am
+              appetite
+              bad
+              bananas
+              bed
+              been
+              body
+              but
+              can
+              caused
+              causing
+              chemical
+              commercial
+              contain
+              crippled
+              crying
+              cymbalta
+              definitely
+              depression
+              diary
+              dont
+              drowsy
+              due
+              effexor
+              experiencing
+              fda
+              feel
+              fluid
+              found
+              gain
+              gained
+              glassncision
+              had
+              hating
+              headaches
+              help
+              hurts
+              i
+              is
+              it
+              lamotrigine
+              lbs
+              legs
+              lozenge
+              made
+              makes
+              making
+              me
+              messed
+              munchies
+              muscle
+              my
+              natural
+              neck
+              next
+              nicotine
+              nightmare
+              off
+              olanzapine
+              on
+              pain
+              pains
+              person
+              pic
+              prozac
+              quetiapine
+              restless
+              retention
+              rivaroxaban
+              rt
+              same
+              sense
+              seroquel
+              sick
+              since
+              skin
+              sleep
+              stone
+              taking
+              tendon
+              this
+              though
+              tired
+              uberfacts
+              up
+              was
+              weight
+              withdrawal
+              withdrawals
+              wondering
+              zombie
+              class
+Test mode:    user supplied test set:  size unknown (reading incrementally)
+
+=== Classifier model (full training set) ===
+
+InputMappedClassifier:
+
+Naive Bayes Classifier
+
+                                 Class
+Attribute                            N                       Y
+                                (0.88)                  (0.12)
+===============================================================
+id
+  mean               342906323376506560      343589862557201600
+  std. dev.            6538697850358236        7398070893742562
+  weight sum                       2793                     373
+  precision          10114275674983.613      10114275674983.613
+
+allergic
+  mean                           0.0014                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+am
+  mean                           0.0204                  0.0617
+  std. dev.                      0.1667                  0.2405
+  weight sum                       2793                     373
+  precision                           1                       1
+
+appetite
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bad
+  mean                           0.0107                  0.0456
+  std. dev.                      0.1667                  0.2086
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bananas
+  mean                            0.034                       0
+  std. dev.                      0.2139                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+bed
+  mean                           0.0057                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+been
+  mean                           0.0279                   0.059
+  std. dev.                      0.1793                  0.2356
+  weight sum                       2793                     373
+  precision                           1                       1
+
+body
+  mean                           0.0029                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+but
+  mean                           0.0709                  0.1448
+  std. dev.                      0.2594                  0.3594
+  weight sum                       2793                     373
+  precision                           1                       1
+
+can
+  mean                            0.102                  0.0483
+  std. dev.                      0.3086                  0.2265
+  weight sum                       2793                     373
+  precision                           1                       1
+
+caused
+  mean                           0.0004                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+causing
+  mean                           0.0014                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+chemical
+  mean                           0.0569                       0
+  std. dev.                       0.331                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+commercial
+  mean                           0.0161                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+contain
+  mean                           0.0286                       0
+  std. dev.                      0.1668                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+crippled
+  mean                           0.0004                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+crying
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+cymbalta
+  mean                           0.0795                  0.0322
+  std. dev.                      0.2757                  0.1765
+  weight sum                       2793                     373
+  precision                           1                       1
+
+definitely
+  mean                           0.0021                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+depression
+  mean                            0.044                   0.008
+  std. dev.                      0.2086                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+diary
+  mean                           0.0029                  0.0268
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+dont
+  mean                            0.034                  0.0751
+  std. dev.                      0.1852                  0.2735
+  weight sum                       2793                     373
+  precision                           1                       1
+
+drowsy
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+due
+  mean                           0.0029                  0.0188
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+effexor
+  mean                           0.0215                  0.0643
+  std. dev.                      0.1667                  0.2454
+  weight sum                       2793                     373
+  precision                           1                       1
+
+experiencing
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+fda
+  mean                           0.0204                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+feel
+  mean                           0.0172                  0.1072
+  std. dev.                      0.2222                  0.4118
+  weight sum                       2793                     373
+  precision                      1.3333                  1.3333
+
+fluid
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+found
+  mean                           0.0333                   0.008
+  std. dev.                      0.1794                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+gain
+  mean                           0.0011                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+gained
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+glassncision
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+had
+  mean                           0.0347                  0.0858
+  std. dev.                      0.1945                  0.2895
+  weight sum                       2793                     373
+  precision                           1                       1
+
+hating
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+headaches
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+help
+  mean                            0.044                  0.0054
+  std. dev.                      0.2069                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+hurts
+  mean                           0.0226                  0.0027
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+i
+  mean                           0.4024                  0.6729
+  std. dev.                      0.6993                  0.8788
+  weight sum                       2793                     373
+  precision                           1                       1
+
+is
+  mean                           0.1708                  0.2735
+  std. dev.                      0.4135                  0.4915
+  weight sum                       2793                     373
+  precision                           1                       1
+
+it
+  mean                           0.1321                  0.2493
+  std. dev.                      0.3842                  0.4907
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lamotrigine
+  mean                           0.0143                  0.0429
+  std. dev.                      0.1667                  0.2026
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lbs
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+legs
+  mean                           0.0011                  0.0214
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+lozenge
+  mean                           0.0784                   0.008
+  std. dev.                      0.2741                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+made
+  mean                           0.0104                  0.0429
+  std. dev.                      0.1667                  0.2026
+  weight sum                       2793                     373
+  precision                           1                       1
+
+makes
+  mean                           0.0057                  0.0617
+  std. dev.                      0.1667                  0.2514
+  weight sum                       2793                     373
+  precision                           1                       1
+
+making
+  mean                           0.0014                  0.0268
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+me
+  mean                            0.116                  0.3029
+  std. dev.                      0.3522                  0.5643
+  weight sum                       2793                     373
+  precision                           1                       1
+
+messed
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+munchies
+  mean                                0                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+muscle
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+my
+  mean                           0.2274                  0.3921
+  std. dev.                      0.5494                  0.7099
+  weight sum                       2793                     373
+  precision                        1.25                    1.25
+
+natural
+  mean                            0.029                  0.0027
+  std. dev.                      0.1678                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+neck
+  mean                           0.0011                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+next
+  mean                           0.0125                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+nicotine
+  mean                           0.0598                  0.0214
+  std. dev.                      0.2386                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+nightmare
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+off
+  mean                           0.0276                  0.0617
+  std. dev.                      0.1743                  0.2514
+  weight sum                       2793                     373
+  precision                           1                       1
+
+olanzapine
+  mean                           0.0233                  0.0777
+  std. dev.                      0.1667                  0.2871
+  weight sum                       2793                     373
+  precision                           1                       1
+
+on
+  mean                           0.1579                  0.2413
+  std. dev.                      0.4073                  0.4974
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pain
+  mean                           0.0115                  0.0536
+  std. dev.                      0.1667                  0.2253
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pains
+  mean                           0.0004                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+person
+  mean                           0.0322                       0
+  std. dev.                      0.1806                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+pic
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+prozac
+  mean                           0.0831                  0.0161
+  std. dev.                      0.2798                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+quetiapine
+  mean                           0.0351                  0.0912
+  std. dev.                      0.1879                   0.297
+  weight sum                       2793                     373
+  precision                           1                       1
+
+restless
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+retention
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+rivaroxaban
+  mean                           0.0064                  0.0349
+  std. dev.                      0.1667                  0.1834
+  weight sum                       2793                     373
+  precision                           1                       1
+
+rt
+  mean                           0.0193                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+same
+  mean                           0.0354                   0.008
+  std. dev.                      0.1868                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sense
+  mean                           0.0004                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+seroquel
+  mean                           0.0555                   0.118
+  std. dev.                      0.2321                  0.3226
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sick
+  mean                           0.0021                  0.0349
+  std. dev.                      0.1667                  0.1975
+  weight sum                       2793                     373
+  precision                           1                       1
+
+since
+  mean                           0.0068                  0.0349
+  std. dev.                      0.1667                  0.1834
+  weight sum                       2793                     373
+  precision                           1                       1
+
+skin
+  mean                           0.0007                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+sleep
+  mean                           0.0226                  0.0509
+  std. dev.                      0.1667                  0.2199
+  weight sum                       2793                     373
+  precision                           1                       1
+
+stone
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+taking
+  mean                           0.0251                  0.0643
+  std. dev.                      0.1667                  0.2454
+  weight sum                       2793                     373
+  precision                           1                       1
+
+tendon
+  mean                                0                   0.008
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+this
+  mean                            0.073                  0.1394
+  std. dev.                      0.2683                  0.3831
+  weight sum                       2793                     373
+  precision                           1                       1
+
+though
+  mean                           0.0057                  0.0241
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+tired
+  mean                           0.0021                  0.0241
+  std. dev.                      0.1667                    0.17
+  weight sum                       2793                     373
+  precision                           1                       1
+
+uberfacts
+  mean                           0.0251                       0
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+up
+  mean                           0.0362                  0.0938
+  std. dev.                      0.1905                  0.3007
+  weight sum                       2793                     373
+  precision                           1                       1
+
+was
+  mean                           0.0576                   0.118
+  std. dev.                      0.2465                  0.3466
+  weight sum                       2793                     373
+  precision                           1                       1
+
+weight
+  mean                           0.0061                  0.0375
+  std. dev.                      0.1667                  0.1901
+  weight sum                       2793                     373
+  precision                           1                       1
+
+withdrawal
+  mean                           0.0014                  0.0188
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+withdrawals
+  mean                                0                  0.0134
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+wondering
+  mean                           0.0004                  0.0107
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+zombie
+  mean                                0                  0.0161
+  std. dev.                      0.1667                  0.1667
+  weight sum                       2793                     373
+  precision                           1                       1
+
+
+Attribute mappings:
+
+Model attributes        	    Incoming attributes
+------------------------	    ----------------
+(numeric) id            	--> 1 (numeric) id
+(numeric) allergic      	--> 2 (numeric) allergic
+(numeric) am            	--> 3 (numeric) am
+(numeric) appetite      	--> 4 (numeric) appetite
+(numeric) bad           	--> 5 (numeric) bad
+(numeric) bananas       	--> 6 (numeric) bananas
+(numeric) bed           	--> 7 (numeric) bed
+(numeric) been          	--> 8 (numeric) been
+(numeric) body          	--> 9 (numeric) body
+(numeric) but           	--> 10 (numeric) but
+(numeric) can           	--> 11 (numeric) can
+(numeric) caused        	--> 12 (numeric) caused
+(numeric) causing       	--> 13 (numeric) causing
+(numeric) chemical      	--> 14 (numeric) chemical
+(numeric) commercial    	--> 15 (numeric) commercial
+(numeric) contain       	--> 16 (numeric) contain
+(numeric) crippled      	--> 17 (numeric) crippled
+(numeric) crying        	--> 18 (numeric) crying
+(numeric) cymbalta      	--> 19 (numeric) cymbalta
+(numeric) definitely    	--> 20 (numeric) definitely
+(numeric) depression    	--> 21 (numeric) depression
+(numeric) diary         	--> 22 (numeric) diary
+(numeric) dont          	--> 23 (numeric) dont
+(numeric) drowsy        	--> 24 (numeric) drowsy
+(numeric) due           	--> 25 (numeric) due
+(numeric) effexor       	--> 26 (numeric) effexor
+(numeric) experiencing  	--> 27 (numeric) experiencing
+(numeric) fda           	--> 28 (numeric) fda
+(numeric) feel          	--> 29 (numeric) feel
+(numeric) fluid         	--> 30 (numeric) fluid
+(numeric) found         	--> 31 (numeric) found
+(numeric) gain          	--> 32 (numeric) gain
+(numeric) gained        	--> 33 (numeric) gained
+(numeric) glassncision  	--> 34 (numeric) glassncision
+(numeric) had           	--> 35 (numeric) had
+(numeric) hating        	--> 36 (numeric) hating
+(numeric) headaches     	--> 37 (numeric) headaches
+(numeric) help          	--> 38 (numeric) help
+(numeric) hurts         	--> 39 (numeric) hurts
+(numeric) i             	--> 40 (numeric) i
+(numeric) is            	--> 41 (numeric) is
+(numeric) it            	--> 42 (numeric) it
+(numeric) lamotrigine   	--> 43 (numeric) lamotrigine
+(numeric) lbs           	--> 44 (numeric) lbs
+(numeric) legs          	--> 45 (numeric) legs
+(numeric) lozenge       	--> 46 (numeric) lozenge
+(numeric) made          	--> 47 (numeric) made
+(numeric) makes         	--> 48 (numeric) makes
+(numeric) making        	--> 49 (numeric) making
+(numeric) me            	--> 50 (numeric) me
+(numeric) messed        	--> 51 (numeric) messed
+(numeric) munchies      	--> 52 (numeric) munchies
+(numeric) muscle        	--> 53 (numeric) muscle
+(numeric) my            	--> 54 (numeric) my
+(numeric) natural       	--> 55 (numeric) natural
+(numeric) neck          	--> 56 (numeric) neck
+(numeric) next          	--> 57 (numeric) next
+(numeric) nicotine      	--> 58 (numeric) nicotine
+(numeric) nightmare     	--> 59 (numeric) nightmare
+(numeric) off           	--> 60 (numeric) off
+(numeric) olanzapine    	--> 61 (numeric) olanzapine
+(numeric) on            	--> 62 (numeric) on
+(numeric) pain          	--> 63 (numeric) pain
+(numeric) pains         	--> 64 (numeric) pains
+(numeric) person        	--> 65 (numeric) person
+(numeric) pic           	--> 66 (numeric) pic
+(numeric) prozac        	--> 67 (numeric) prozac
+(numeric) quetiapine    	--> 68 (numeric) quetiapine
+(numeric) restless      	--> 69 (numeric) restless
+(numeric) retention     	--> 70 (numeric) retention
+(numeric) rivaroxaban   	--> 71 (numeric) rivaroxaban
+(numeric) rt            	--> 72 (numeric) rt
+(numeric) same          	--> 73 (numeric) same
+(numeric) sense         	--> 74 (numeric) sense
+(numeric) seroquel      	--> 75 (numeric) seroquel
+(numeric) sick          	--> 76 (numeric) sick
+(numeric) since         	--> 77 (numeric) since
+(numeric) skin          	--> 78 (numeric) skin
+(numeric) sleep         	--> 79 (numeric) sleep
+(numeric) stone         	--> 80 (numeric) stone
+(numeric) taking        	--> 81 (numeric) taking
+(numeric) tendon        	--> 82 (numeric) tendon
+(numeric) this          	--> 83 (numeric) this
+(numeric) though        	--> 84 (numeric) though
+(numeric) tired         	--> 85 (numeric) tired
+(numeric) uberfacts     	--> 86 (numeric) uberfacts
+(numeric) up            	--> 87 (numeric) up
+(numeric) was           	--> 88 (numeric) was
+(numeric) weight        	--> 89 (numeric) weight
+(numeric) withdrawal    	--> 90 (numeric) withdrawal
+(numeric) withdrawals   	--> 91 (numeric) withdrawals
+(numeric) wondering     	--> 92 (numeric) wondering
+(numeric) zombie        	--> 93 (numeric) zombie
+(nominal) class         	--> 142 (nominal) class
+
+
+Time taken to build model: 0.02 seconds
+
+=== Predictions on test set ===
+
+    inst#     actual  predicted error prediction
+        1        1:?        1:N       0.959 
+        2        1:?        2:Y       0.663 
+        3        1:?        2:Y       0.662 
+        4        1:?        1:N       0.71 
+        5        1:?        1:N       0.984 
+        6        1:?        2:Y       0.664 
+        7        1:?        1:N       0.984 
+        8        1:?        1:N       0.584 
+        9        1:?        2:Y       0.501 
+       10        1:?        1:N       0.974 
+       11        1:?        2:Y       0.99 
+       12        1:?        1:N       0.985 
+       13        1:?        1:N       0.985 
+       14        1:?        1:N       0.975 
+       15        1:?        2:Y       0.988 
+       16        1:?        1:N       0.986 
+       17        1:?        1:N       0.986 
+       18        1:?        1:N       0.734 
+       19        1:?        2:Y       0.999 
+       20        1:?        2:Y       1 
+       21        1:?        2:Y       0.974 
+       22        1:?        1:N       0.973 
+       23        1:?        1:N       0.671 
+       24        1:?        1:N       0.572 
+       25        1:?        1:N       0.986 
+       26        1:?        1:N       0.876 
+       27        1:?        1:N       0.986 
+       28        1:?        1:N       0.986 
+       29        1:?        1:N       0.922 
+       30        1:?        1:N       0.952 
+       31        1:?        2:Y       0.993 
+       32        1:?        1:N       0.988 
+       33        1:?        1:N       0.882 
+       34        1:?        1:N       0.987 
+       35        1:?        1:N       0.987 
+       36        1:?        2:Y       0.655 
+       37        1:?        1:N       1 
+       38        1:?        1:N       0.71 
+       39        1:?        2:Y       0.687 
+       40        1:?        2:Y       0.998 
+       41        1:?        1:N       0.981 
+       42        1:?        1:N       0.987 
+       43        1:?        2:Y       0.564 
+       44        1:?        2:Y       0.886 
+       45        1:?        1:N       0.792 
+       46        1:?        1:N       0.982 
+       47        1:?        2:Y       0.977 
+       48        1:?        2:Y       1 
+       49        1:?        1:N       0.987 
+       50        1:?        1:N       0.987 
+       51        1:?        1:N       0.76 
+       52        1:?        2:Y       0.641 
+       53        1:?        2:Y       0.697 
+       54        1:?        1:N       0.994 
+       55        1:?        2:Y       0.794 
+       56        1:?        2:Y       0.509 
+       57        1:?        1:N       0.967 
+       58        1:?        1:N       0.901 
+       59        1:?        1:N       0.982 
+       60        1:?        1:N       0.877 
+       61        1:?        1:N       0.988 
+       62        1:?        1:N       0.991 
+       63        1:?        1:N       0.991 
+       64        1:?        2:Y       1 
+       65        1:?        1:N       0.641 
+       66        1:?        1:N       0.539 
+       67        1:?        1:N       0.979 
+       68        1:?        1:N       0.994 
+       69        1:?        1:N       0.96 
+       70        1:?        1:N       0.606 
+       71        1:?        2:Y       0.989 
+       72        1:?        1:N       1 
+       73        1:?        1:N       0.995 
+       74        1:?        1:N       0.988 
+       75        1:?        1:N       0.988 
+       76        1:?        2:Y       0.581 
+       77        1:?        1:N       0.988 
+       78        1:?        1:N       0.921 
+       79        1:?        1:N       0.921 
+       80        1:?        1:N       0.856 
+       81        1:?        1:N       0.991 
+       82        1:?        1:N       0.998 
+       83        1:?        1:N       0.988 
+       84        1:?        1:N       0.566 
+       85        1:?        1:N       0.695 
+       86        1:?        2:Y       0.92 
+       87        1:?        1:N       0.92 
+       88        1:?        1:N       0.92 
+       89        1:?        2:Y       1 
+       90        1:?        1:N       0.999 
+       91        1:?        1:N       0.997 
+       92        1:?        1:N       1 
+       93        1:?        1:N       1 
+       94        1:?        1:N       0.701 
+       95        1:?        1:N       0.992 
+       96        1:?        1:N       0.989 
+       97        1:?        1:N       0.927 
+       98        1:?        1:N       0.989 
+       99        1:?        1:N       0.956 
+      100        1:?        1:N       0.861 
+      101        1:?        2:Y       0.753 
+      102        1:?        2:Y       1 
+      103        1:?        1:N       1 
+      104        1:?        1:N       0.935 
+      105        1:?        2:Y       0.712 
+      106        1:?        1:N       0.96 
+      107        1:?        1:N       1 
+      108        1:?        1:N       0.927 
+      109        1:?        1:N       0.989 
+      110        1:?        1:N       0.821 
+      111        1:?        1:N       0.984 
+      112        1:?        2:Y       0.676 
+      113        1:?        1:N       0.984 
+      114        1:?        1:N       0.922 
+      115        1:?        1:N       0.912 
+      116        1:?        2:Y       0.642 
+      117        1:?        1:N       0.973 
+      118        1:?        1:N       0.98 
+      119        1:?        1:N       1 
+      120        1:?        1:N       0.969 
+      121        1:?        2:Y       0.788 
+      122        1:?        1:N       0.989 
+      123        1:?        1:N       0.989 
+      124        1:?        1:N       0.981 
+      125        1:?        1:N       0.954 
+      126        1:?        1:N       0.83 
+      127        1:?        1:N       0.989 
+      128        1:?        1:N       0.933 
+      129        1:?        1:N       0.863 
+      130        1:?        1:N       0.972 
+      131        1:?        1:N       0.989 
+      132        1:?        1:N       0.863 
+      133        1:?        1:N       0.847 
+      134        1:?        1:N       1 
+      135        1:?        1:N       1 
+      136        1:?        1:N       0.999 
+      137        1:?        1:N       0.997 
+      138        1:?        1:N       0.831 
+      139        1:?        1:N       0.741 
+      140        1:?        2:Y       1 
+      141        1:?        2:Y       0.95 
+      142        1:?        1:N       0.989 
+      143        1:?        1:N       1 
+      144        1:?        1:N       0.554 
+      145        1:?        1:N       0.981 
+      146        1:?        2:Y       0.905 
+      147        1:?        1:N       1 
+      148        1:?        1:N       1 
+      149        1:?        2:Y       0.947 
+      150        1:?        1:N       0.989 
+      151        1:?        1:N       0.981 
+      152        1:?        1:N       0.989 
+      153        1:?        1:N       0.989 
+      154        1:?        1:N       0.565 
+      155        1:?        1:N       0.999 
+      156        1:?        1:N       0.97 
+      157        1:?        1:N       0.989 
+      158        1:?        2:Y       0.998 
+      159        1:?        2:Y       1 
+      160        1:?        1:N       0.873 
+      161        1:?        2:Y       0.924 
+      162        1:?        2:Y       0.986 
+      163        1:?        1:N       0.999 
+      164        1:?        1:N       0.95 
+      165        1:?        1:N       0.969 
+      166        1:?        1:N       0.708 
+      167        1:?        1:N       0.981 
+      168        1:?        1:N       0.589 
+      169        1:?        1:N       1 
+      170        1:?        2:Y       0.7 
+      171        1:?        1:N       0.998 
+      172        1:?        2:Y       0.583 
+      173        1:?        1:N       1 
+      174        1:?        1:N       0.753 
+      175        1:?        1:N       0.995 
+      176        1:?        1:N       0.972 
+      177        1:?        1:N       0.995 
+      178        1:?        2:Y       0.987 
+      179        1:?        1:N       0.563 
+      180        1:?        1:N       0.601 
+      181        1:?        1:N       0.923 
+      182        1:?        1:N       0.989 
+      183        1:?        1:N       0.989 
+      184        1:?        1:N       0.982 
+      185        1:?        1:N       0.895 
+      186        1:?        1:N       0.77 
+      187        1:?        1:N       0.989 
+      188        1:?        1:N       0.973 
+      189        1:?        1:N       0.989 
+      190        1:?        1:N       0.994 
+      191        1:?        2:Y       0.642 
+      192        1:?        2:Y       0.715 
+      193        1:?        1:N       0.796 
+      194        1:?        1:N       0.996 
+      195        1:?        1:N       0.812 
+      196        1:?        1:N       0.994 
+      197        1:?        2:Y       0.833 
+      198        1:?        1:N       0.996 
+      199        1:?        1:N       1 
+      200        1:?        1:N       0.995 
+      201        1:?        1:N       0.916 
+      202        1:?        1:N       0.703 
+      203        1:?        1:N       0.99 
+      204        1:?        1:N       0.979 
+      205        1:?        1:N       0.999 
+      206        1:?        1:N       0.991 
+      207        1:?        1:N       0.999 
+      208        1:?        1:N       0.999 
+      209        1:?        1:N       0.999 
+      210        1:?        1:N       1 
+      211        1:?        1:N       0.929 
+      212        1:?        1:N       0.999 
+      213        1:?        1:N       0.801 
+      214        1:?        1:N       0.999 
+      215        1:?        1:N       1 
+      216        1:?        1:N       0.999 
+      217        1:?        1:N       0.998 
+      218        1:?        1:N       0.845 
+      219        1:?        1:N       1 
+      220        1:?        1:N       0.999 
+      221        1:?        1:N       0.999 
+      222        1:?        1:N       0.594 
+      223        1:?        1:N       0.999 
+      224        1:?        1:N       1 
+      225        1:?        1:N       0.999 
+      226        1:?        1:N       0.998 
+      227        1:?        1:N       0.907 
+      228        1:?        1:N       0.928 
+      229        1:?        1:N       1 
+      230        1:?        1:N       0.999 
+      231        1:?        1:N       0.999 
+      232        1:?        1:N       0.998 
+      233        1:?        1:N       0.999 
+      234        1:?        1:N       0.999 
+      235        1:?        1:N       0.999 
+      236        1:?        1:N       0.986 
+      237        1:?        1:N       0.991 
+      238        1:?        1:N       0.999 
+      239        1:?        1:N       0.998 
+      240        1:?        1:N       1 
+      241        1:?        1:N       0.999 
+      242        1:?        1:N       0.999 
+      243        1:?        1:N       0.999 
+      244        1:?        1:N       0.999 
+      245        1:?        1:N       0.998 
+      246        1:?        2:Y       0.921 
+      247        1:?        1:N       0.999 
+      248        1:?        1:N       0.994 
+      249        1:?        1:N       0.999 
+      250        1:?        1:N       1 
+      251        1:?        1:N       0.999 
+      252        1:?        2:Y       1 
+      253        1:?        1:N       1 
+      254        1:?        1:N       1 
+      255        1:?        1:N       0.983 
+      256        1:?        1:N       1 
+      257        1:?        1:N       1 
+      258        1:?        1:N       1 
+      259        1:?        1:N       0.993 
+      260        1:?        1:N       0.999 
+      261        1:?        1:N       0.99 
+      262        1:?        1:N       0.991 
+      263        1:?        1:N       0.997 
+      264        1:?        1:N       0.99 
+      265        1:?        1:N       1 
+      266        1:?        1:N       1 
+      267        1:?        2:Y       0.979 
+      268        1:?        1:N       1 
+      269        1:?        1:N       1 
+      270        1:?        1:N       1 
+      271        1:?        1:N       0.998 
+      272        1:?        1:N       1 
+      273        1:?        1:N       0.976 
+      274        1:?        1:N       1 
+      275        1:?        1:N       0.983 
+      276        1:?        1:N       0.999 
+      277        1:?        2:Y       0.752 
+      278        1:?        1:N       1 
+      279        1:?        1:N       1 
+      280        1:?        1:N       1 
+      281        1:?        1:N       1 
+      282        1:?        1:N       1 
+      283        1:?        1:N       1 
+      284        1:?        1:N       1 
+      285        1:?        1:N       1 
+      286        1:?        1:N       1 
+      287        1:?        1:N       1 
+      288        1:?        1:N       1 
+      289        1:?        1:N       1 
+      290        1:?        1:N       1 
+      291        1:?        1:N       1 
+      292        1:?        1:N       1 
+      293        1:?        1:N       1 
+      294        1:?        1:N       1 
+      295        1:?        1:N       1 
+      296        1:?        1:N       1 
+      297        1:?        1:N       1 
+      298        1:?        1:N       1 
+      299        1:?        1:N       1 
+      300        1:?        1:N       0.999 
+      301        1:?        1:N       1 
+      302        1:?        1:N       1 
+      303        1:?        1:N       1 
+      304        1:?        1:N       1 
+      305        1:?        1:N       1 
+      306        1:?        1:N       1 
+      307        1:?        1:N       1 
+      308        1:?        1:N       1 
+      309        1:?        1:N       1 
+      310        1:?        1:N       1 
+      311        1:?        1:N       1 
+      312        1:?        1:N       1 
+      313        1:?        1:N       0.982 
+      314        1:?        1:N       0.999 
+      315        1:?        1:N       0.809 
+      316        1:?        2:Y       1 
+      317        1:?        2:Y       0.997 
+      318        1:?        1:N       0.647 
+      319        1:?        1:N       1 
+      320        1:?        1:N       0.544 
+      321        1:?        1:N       0.986 
+      322        1:?        2:Y       0.507 
+      323        1:?        1:N       0.999 
+      324        1:?        1:N       0.912 
+      325        1:?        1:N       1 
+      326        1:?        1:N       0.999 
+      327        1:?        2:Y       0.983 
+      328        1:?        1:N       0.689 
+      329        1:?        1:N       0.984 
+      330        1:?        1:N       0.99 
+      331        1:?        1:N       0.865 
+      332        1:?        1:N       0.974 
+      333        1:?        1:N       1 
+      334        1:?        1:N       1 
+      335        1:?        1:N       0.979 
+      336        1:?        2:Y       1 
+      337        1:?        1:N       0.993 
+      338        1:?        1:N       0.956 
+      339        1:?        1:N       0.999 
+      340        1:?        1:N       0.983 
+      341        1:?        1:N       1 
+      342        1:?        1:N       0.956 
+      343        1:?        1:N       0.983 
+      344        1:?        1:N       0.999 
+      345        1:?        1:N       0.997 
+      346        1:?        1:N       0.998 
+      347        1:?        2:Y       1 
+      348        1:?        2:Y       0.97 
+      349        1:?        1:N       1 
+      350        1:?        1:N       0.841 
+      351        1:?        1:N       0.99 
+      352        1:?        1:N       1 
+      353        1:?        1:N       0.878 
+      354        1:?        2:Y       0.98 
+      355        1:?        1:N       0.998 
+      356        1:?        2:Y       0.982 
+      357        1:?        1:N       1 
+      358        1:?        1:N       0.999 
+      359        1:?        2:Y       0.992 
+      360        1:?        1:N       0.998 
+      361        1:?        1:N       1 
+      362        1:?        1:N       0.999 
+      363        1:?        1:N       1 
+      364        1:?        1:N       0.938 
+      365        1:?        1:N       0.689 
+      366        1:?        1:N       0.995 
+      367        1:?        2:Y       0.539 
+      368        1:?        1:N       0.99 
+      369        1:?        1:N       0.995 
+      370        1:?        1:N       0.985 
+      371        1:?        2:Y       0.994 
+      372        1:?        1:N       0.986 
+      373        1:?        1:N       0.964 
+      374        1:?        1:N       0.99 
+      375        1:?        1:N       0.507 
+      376        1:?        1:N       1 
+      377        1:?        1:N       1 
+      378        1:?        1:N       0.99 
+      379        1:?        1:N       0.785 
+      380        1:?        2:Y       0.817 
+      381        1:?        1:N       0.811 
+      382        1:?        1:N       1 
+      383        1:?        2:Y       0.716 
+      384        1:?        1:N       0.891 
+      385        1:?        1:N       0.938 
+      386        1:?        1:N       0.99 
+      387        1:?        1:N       0.99 
+      388        1:?        1:N       0.997 
+      389        1:?        1:N       1 
+      390        1:?        1:N       0.99 
+      391        1:?        1:N       0.879 
+      392        1:?        1:N       0.966 
+      393        1:?        1:N       0.999 
+      394        1:?        1:N       0.996 
+      395        1:?        1:N       0.927 
+      396        1:?        1:N       0.773 
+      397        1:?        1:N       0.825 
+      398        1:?        1:N       0.983 
+      399        1:?        1:N       0.936 
+      400        1:?        1:N       0.65 
+      401        1:?        1:N       0.983 
+      402        1:?        1:N       0.983 
+      403        1:?        1:N       0.986 
+      404        1:?        2:Y       1 
+      405        1:?        1:N       0.66 
+      406        1:?        1:N       0.935 
+      407        1:?        1:N       0.973 
+      408        1:?        1:N       0.973 
+      409        1:?        1:N       0.938 
+      410        1:?        1:N       0.983 
+      411        1:?        1:N       0.99 
+      412        1:?        2:Y       1 
+      413        1:?        1:N       1 
+      414        1:?        1:N       0.994 
+      415        1:?        1:N       1 
+      416        1:?        1:N       0.99 
+      417        1:?        1:N       0.999 
+      418        1:?        1:N       1 
+      419        1:?        1:N       0.769 
+      420        1:?        1:N       0.853 
+      421        1:?        1:N       1 
+      422        1:?        1:N       0.996 
+      423        1:?        1:N       0.909 
+      424        1:?        1:N       0.99 
+      425        1:?        1:N       0.982 
+      426        1:?        2:Y       0.511 
+      427        1:?        1:N       0.954 
+      428        1:?        1:N       1 
+      429        1:?        1:N       0.567 
+      430        1:?        2:Y       0.614 
+      431        1:?        1:N       1 
+      432        1:?        1:N       0.999 
+      433        1:?        1:N       1 
+      434        1:?        1:N       0.999 
+      435        1:?        1:N       1 
+      436        1:?        1:N       0.965 
+      437        1:?        2:Y       0.989 
+      438        1:?        1:N       0.996 
+      439        1:?        1:N       0.88 
+      440        1:?        1:N       0.994 
+      441        1:?        1:N       0.965 
+      442        1:?        2:Y       0.837 
+      443        1:?        1:N       0.999 
+      444        1:?        1:N       1 
+      445        1:?        1:N       0.949 
+      446        1:?        2:Y       0.984 
+      447        1:?        1:N       0.99 
+      448        1:?        1:N       1 
+      449        1:?        2:Y       0.645 
+      450        1:?        2:Y       0.998 
+      451        1:?        1:N       1 
+      452        1:?        1:N       0.886 
+      453        1:?        1:N       0.842 
+      454        1:?        1:N       0.994 
+      455        1:?        1:N       0.72 
+      456        1:?        1:N       0.955 
+      457        1:?        1:N       0.979 
+      458        1:?        1:N       1 
+      459        1:?        2:Y       0.999 
+      460        1:?        1:N       0.744 
+      461        1:?        1:N       0.99 
+      462        1:?        1:N       0.99 
+      463        1:?        1:N       0.955 
+      464        1:?        2:Y       1 
+      465        1:?        1:N       0.979 
+      466        1:?        1:N       0.999 
+      467        1:?        1:N       0.997 
+      468        1:?        1:N       0.927 
+      469        1:?        1:N       0.958 
+      470        1:?        1:N       0.983 
+      471        1:?        1:N       1 
+      472        1:?        1:N       0.976 
+      473        1:?        1:N       0.974 
+      474        1:?        1:N       0.795 
+      475        1:?        2:Y       0.928 
+      476        1:?        2:Y       0.697 
+      477        1:?        2:Y       0.789 
+      478        1:?        1:N       0.838 
+      479        1:?        1:N       0.872 
+      480        1:?        1:N       0.788 
+      481        1:?        1:N       0.991 
+      482        1:?        1:N       0.932 
+      483        1:?        1:N       0.881 
+      484        1:?        1:N       0.998 
+      485        1:?        1:N       0.99 
+      486        1:?        1:N       0.54 
+      487        1:?        1:N       1 
+      488        1:?        2:Y       0.946 
+      489        1:?        1:N       1 
+      490        1:?        1:N       0.951 
+      491        1:?        1:N       0.99 
+      492        1:?        1:N       1 
+      493        1:?        1:N       0.932 
+      494        1:?        1:N       0.976 
+      495        1:?        1:N       0.965 
+      496        1:?        2:Y       0.993 
+      497        1:?        1:N       0.995 
+      498        1:?        1:N       0.99 
+      499        1:?        1:N       0.696 
+      500        1:?        1:N       0.776 
+      501        1:?        2:Y       0.998 
+      502        1:?        1:N       0.999 
+      503        1:?        1:N       0.987 
+      504        1:?        1:N       0.546 
+      505        1:?        1:N       1 
+      506        1:?        1:N       0.99 
+      507        1:?        1:N       0.737 
+      508        1:?        2:Y       0.994 
+      509        1:?        2:Y       0.571 
+      510        1:?        1:N       0.979 
+      511        1:?        2:Y       0.999 
+      512        1:?        1:N       0.986 
+      513        1:?        1:N       0.976 
+      514        1:?        1:N       1 
+      515        1:?        1:N       0.99 
+      516        1:?        2:Y       0.694 
+      517        1:?        1:N       0.969 
+      518        1:?        1:N       0.584 
+      519        1:?        1:N       0.994 
+      520        1:?        2:Y       0.863 
+      521        1:?        1:N       1 
+      522        1:?        1:N       0.999 
+      523        1:?        1:N       1 
+      524        1:?        1:N       1 
+      525        1:?        2:Y       0.738 
+      526        1:?        2:Y       1 
+      527        1:?        1:N       0.999 
+      528        1:?        1:N       0.99 
+      529        1:?        1:N       0.999 
+      530        1:?        2:Y       0.988 
+      531        1:?        2:Y       0.632 
+      532        1:?        1:N       0.887 
+      533        1:?        1:N       0.89 
+      534        1:?        1:N       0.904 
+      535        1:?        1:N       0.94 
+      536        1:?        1:N       0.99 
+      537        1:?        2:Y       1 
+      538        1:?        1:N       0.99 
+      539        1:?        1:N       0.979 
+      540        1:?        1:N       0.965 
+      541        1:?        1:N       0.987 
+      542        1:?        1:N       0.906 
+      543        1:?        1:N       0.99 
+      544        1:?        1:N       0.746 
+      545        1:?        1:N       0.993 
+      546        1:?        1:N       0.974 
+      547        1:?        1:N       0.588 
+      548        1:?        1:N       0.999 
+      549        1:?        1:N       0.99 
+      550        1:?        2:Y       0.997 
+      551        1:?        1:N       0.981 
+      552        1:?        1:N       0.955 
+      553        1:?        2:Y       0.563 
+      554        1:?        2:Y       0.844 
+      555        1:?        1:N       0.994 
+      556        1:?        1:N       0.829 
+      557        1:?        2:Y       0.664 
+      558        1:?        1:N       1 
+      559        1:?        1:N       0.987 
+      560        1:?        1:N       1 
+      561        1:?        1:N       1 
+      562        1:?        1:N       0.99 
+      563        1:?        1:N       0.986 
+      564        1:?        1:N       0.999 
+      565        1:?        1:N       1 
+      566        1:?        1:N       0.986 
+      567        1:?        1:N       1 
+      568        1:?        1:N       0.99 
+      569        1:?        1:N       1 
+      570        1:?        1:N       1 
+      571        1:?        1:N       0.67 
+      572        1:?        1:N       0.923 
+      573        1:?        1:N       0.97 
+      574        1:?        1:N       0.948 
+      575        1:?        1:N       0.983 
+      576        1:?        2:Y       1 
+      577        1:?        1:N       0.939 
+      578        1:?        1:N       0.99 
+      579        1:?        1:N       0.954 
+      580        1:?        1:N       0.977 
+      581        1:?        2:Y       0.997 
+      582        1:?        1:N       0.963 
+      583        1:?        1:N       0.842 
+      584        1:?        1:N       0.931 
+      585        1:?        1:N       0.999 
+      586        1:?        1:N       1 
+      587        1:?        1:N       0.995 
+      588        1:?        1:N       0.99 
+      589        1:?        1:N       0.99 
+      590        1:?        1:N       1 
+      591        1:?        1:N       0.959 
+      592        1:?        2:Y       0.988 
+      593        1:?        1:N       0.663 
+      594        1:?        1:N       0.996 
+      595        1:?        1:N       0.82 
+      596        1:?        1:N       0.796 
+      597        1:?        1:N       0.97 
+      598        1:?        1:N       0.99 
+      599        1:?        1:N       0.99 
+      600        1:?        1:N       0.999 
+      601        1:?        2:Y       0.823 
+      602        1:?        1:N       0.963 
+      603        1:?        1:N       0.986 
+      604        1:?        1:N       0.759 
+      605        1:?        1:N       0.983 
+      606        1:?        1:N       0.806 
+      607        1:?        1:N       0.801 
+      608        1:?        1:N       0.749 
+      609        1:?        1:N       0.954 
+      610        1:?        1:N       0.999 
+      611        1:?        1:N       0.994 
+      612        1:?        1:N       0.922 
+      613        1:?        1:N       0.97 
+      614        1:?        2:Y       0.717 
+      615        1:?        1:N       0.939 
+      616        1:?        1:N       1 
+      617        1:?        2:Y       0.511 
+      618        1:?        2:Y       0.727 
+      619        1:?        1:N       0.992 
+      620        1:?        1:N       1 
+      621        1:?        1:N       1 
+      622        1:?        1:N       1 
+      623        1:?        2:Y       0.531 
+      624        1:?        1:N       0.991 
+      625        1:?        1:N       1 
+      626        1:?        1:N       0.898 
+      627        1:?        1:N       0.978 
+      628        1:?        1:N       0.943 
+      629        1:?        1:N       0.986 
+      630        1:?        1:N       0.621 
+      631        1:?        1:N       0.983 
+      632        1:?        2:Y       0.53 
+      633        1:?        1:N       0.987 
+      634        1:?        1:N       0.883 
+      635        1:?        1:N       0.986 
+      636        1:?        2:Y       0.98 
+      637        1:?        1:N       0.805 
+      638        1:?        1:N       0.939 
+      639        1:?        1:N       0.99 
+      640        1:?        1:N       1 
+      641        1:?        1:N       1 
+      642        1:?        1:N       0.883 
+      643        1:?        2:Y       1 
+      644        1:?        1:N       0.844 
+      645        1:?        1:N       0.84 
+      646        1:?        1:N       0.937 
+      647        1:?        2:Y       0.742 
+      648        1:?        1:N       0.794 
+      649        1:?        2:Y       0.644 
+      650        1:?        1:N       0.99 
+      651        1:?        1:N       0.954 
+      652        1:?        2:Y       0.96 
+      653        1:?        1:N       0.99 
+      654        1:?        1:N       1 
+      655        1:?        2:Y       0.733 
+      656        1:?        1:N       0.963 
+      657        1:?        1:N       0.986 
+      658        1:?        1:N       0.986 
+      659        1:?        1:N       0.996 
+      660        1:?        1:N       0.983 
+      661        1:?        1:N       0.97 
+      662        1:?        1:N       0.983 
+      663        1:?        1:N       0.99 
+      664        1:?        1:N       1 
+      665        1:?        2:Y       0.574 
+      666        1:?        1:N       0.963 
+      667        1:?        1:N       0.975 
+      668        1:?        1:N       0.827 
+      669        1:?        2:Y       0.655 
+      670        1:?        1:N       0.993 
+      671        1:?        1:N       0.842 
+      672        1:?        2:Y       0.978 
+      673        1:?        2:Y       1 
+      674        1:?        1:N       0.627 
+      675        1:?        1:N       0.775 
+      676        1:?        1:N       0.99 
+      677        1:?        2:Y       1 
+      678        1:?        1:N       0.99 
+      679        1:?        2:Y       0.655 
+      680        1:?        1:N       0.997 
+      681        1:?        1:N       0.989 
+      682        1:?        1:N       0.999 
+      683        1:?        2:Y       0.926 
+      684        1:?        1:N       0.999 
+      685        1:?        1:N       0.99 
+      686        1:?        1:N       0.99 
+      687        1:?        1:N       0.99 
+      688        1:?        2:Y       0.92 
+      689        1:?        1:N       1 
+      690        1:?        1:N       0.975 
+      691        1:?        1:N       0.99 
+      692        1:?        1:N       0.99 
+      693        1:?        1:N       0.667 
+      694        1:?        1:N       0.931 
+      695        1:?        1:N       0.99 
+      696        1:?        1:N       0.633 
+      697        1:?        1:N       1 
+      698        1:?        1:N       0.828 
+      699        1:?        1:N       0.788 
+      700        1:?        1:N       0.964 
+      701        1:?        1:N       1 
+      702        1:?        1:N       0.999 
+      703        1:?        1:N       1 
+      704        1:?        1:N       0.933 
+      705        1:?        2:Y       0.994 
+      706        1:?        2:Y       0.897 
+      707        1:?        1:N       0.993 
+      708        1:?        1:N       0.99 
+      709        1:?        2:Y       0.516 
+      710        1:?        1:N       0.755 
+      711        1:?        1:N       0.995 
+      712        1:?        1:N       0.98 
+      713        1:?        1:N       0.929 
+      714        1:?        1:N       1 
+      715        1:?        1:N       0.883 
+      716        1:?        1:N       1 
+      717        1:?        1:N       0.827 
+      718        1:?        1:N       0.679 
+      719        1:?        2:Y       0.83 
+      720        1:?        1:N       0.889 
+      721        1:?        1:N       0.87 
+      722        1:?        1:N       1 
+      723        1:?        1:N       0.985 
+      724        1:?        1:N       0.837 
+      725        1:?        1:N       0.99 
+      726        1:?        2:Y       0.699 
+      727        1:?        1:N       0.985 
+      728        1:?        1:N       0.875 
+      729        1:?        1:N       0.793 
+      730        1:?        1:N       0.631 
+      731        1:?        1:N       0.953 
+      732        1:?        1:N       1 
+      733        1:?        1:N       0.931 
+      734        1:?        1:N       0.952 
+      735        1:?        1:N       0.847 
+      736        1:?        1:N       0.989 
+      737        1:?        2:Y       0.985 
+      738        1:?        1:N       0.99 
+      739        1:?        2:Y       1 
+      740        1:?        1:N       0.874 
+      741        1:?        1:N       0.99 
+      742        1:?        1:N       0.99 
+      743        1:?        1:N       1 
+      744        1:?        2:Y       0.663 
+      745        1:?        1:N       0.946 
+      746        1:?        1:N       0.926 
+      747        1:?        1:N       0.578 
+      748        1:?        1:N       0.897 
+      749        1:?        1:N       0.681 
+      750        1:?        2:Y       0.995 
+      751        1:?        1:N       1 
+      752        1:?        1:N       0.989 
+      753        1:?        1:N       0.997 
+      754        1:?        1:N       0.962 
+      755        1:?        1:N       0.981 
+      756        1:?        1:N       0.642 
+      757        1:?        1:N       0.981 
+      758        1:?        1:N       0.989 
+      759        1:?        2:Y       0.544 
+      760        1:?        2:Y       1 
+      761        1:?        1:N       0.946 
+      762        1:?        1:N       0.999 
+      763        1:?        1:N       0.989 
+      764        1:?        1:N       0.989 
+      765        1:?        2:Y       1 
+      766        1:?        1:N       0.989 
+      767        1:?        2:Y       0.999 
+      768        1:?        1:N       0.951 
+      769        1:?        1:N       0.716 
+      770        1:?        1:N       0.839 
+      771        1:?        1:N       0.996 
+      772        1:?        1:N       1 
+      773        1:?        1:N       0.993 
+      774        1:?        1:N       0.989 
+      775        1:?        1:N       0.989 
+      776        1:?        1:N       0.989 
+      777        1:?        1:N       1 
+      778        1:?        1:N       0.994 
+      779        1:?        1:N       0.981 
+      780        1:?        1:N       1 
+      781        1:?        1:N       1 
+      782        1:?        1:N       0.989 
+      783        1:?        1:N       0.989 
+      784        1:?        2:Y       1 
+      785        1:?        1:N       0.989 
+      786        1:?        1:N       0.972 
+      787        1:?        2:Y       0.99 
+      788        1:?        2:Y       0.962 
+      789        1:?        1:N       0.879 
+      790        1:?        1:N       1 
+      791        1:?        1:N       0.997 
+      792        1:?        2:Y       0.991 
+      793        1:?        1:N       0.984 
+      794        1:?        1:N       0.996 
+      795        1:?        1:N       0.836 
+      796        1:?        1:N       0.997 
+      797        1:?        1:N       0.989 
+      798        1:?        1:N       0.987 
+      799        1:?        1:N       0.989 
+      800        1:?        1:N       0.959 
+      801        1:?        1:N       0.989 
+      802        1:?        1:N       0.986 
+      803        1:?        1:N       1 
+      804        1:?        1:N       0.823 
+      805        1:?        1:N       0.816 
+      806        1:?        2:Y       0.997 
+      807        1:?        1:N       0.999 
+      808        1:?        2:Y       0.978 
+      809        1:?        1:N       0.989 
+      810        1:?        1:N       0.979 
+      811        1:?        1:N       0.979 
+      812        1:?        1:N       0.676 
+      813        1:?        1:N       0.989 
+      814        1:?        1:N       0.907 
+      815        1:?        1:N       0.999 
+      816        1:?        1:N       0.979 
+      817        1:?        2:Y       0.935 
+      818        1:?        1:N       0.904 
+      819        1:?        1:N       0.803 
+      820        1:?        1:N       0.833 
+      821        1:?        2:Y       0.946 
+      822        1:?        1:N       0.989 
+      823        1:?        2:Y       0.585 
+      824        1:?        1:N       0.92 
+      825        1:?        1:N       0.989 
+      826        1:?        1:N       0.622 
+      827        1:?        1:N       0.943 
+      828        1:?        1:N       0.63 
+      829        1:?        2:Y       0.874 
+      830        1:?        1:N       0.891 
+      831        1:?        1:N       0.948 
+      832        1:?        1:N       0.984 
+      833        1:?        2:Y       0.935 
+      834        1:?        1:N       0.981 
+      835        1:?        1:N       1 
+      836        1:?        2:Y       0.595 
+      837        1:?        1:N       0.998 
+      838        1:?        1:N       0.995 
+      839        1:?        2:Y       0.987 
+      840        1:?        1:N       0.931 
+      841        1:?        1:N       0.577 
+      842        1:?        2:Y       0.95 
+      843        1:?        1:N       0.934 
+      844        1:?        1:N       0.948 
+      845        1:?        1:N       0.934 
+      846        1:?        1:N       0.755 
+      847        1:?        1:N       0.999 
+      848        1:?        1:N       0.989 
+      849        1:?        1:N       0.557 
+      850        1:?        1:N       0.93 
+      851        1:?        1:N       0.984 
+      852        1:?        1:N       1 
+      853        1:?        1:N       0.969 
+      854        1:?        1:N       0.997 
+      855        1:?        1:N       0.921 
+      856        1:?        1:N       0.994 
+      857        1:?        1:N       0.889 
+      858        1:?        1:N       0.674 
+      859        1:?        1:N       0.989 
+      860        1:?        1:N       0.985 
+      861        1:?        2:Y       0.932 
+      862        1:?        1:N       0.619 
+      863        1:?        1:N       0.606 
+      864        1:?        1:N       0.586 
+      865        1:?        2:Y       0.634 
+      866        1:?        1:N       0.989 
+      867        1:?        1:N       0.989 
+      868        1:?        1:N       0.739 
+      869        1:?        1:N       0.829 
+      870        1:?        1:N       0.528 
+      871        1:?        1:N       0.989 
+      872        1:?        1:N       0.989 
+      873        1:?        1:N       0.98 
+      874        1:?        1:N       1 
+      875        1:?        1:N       0.988 
+      876        1:?        1:N       0.988 
+      877        1:?        1:N       0.98 
+      878        1:?        1:N       0.967 
+      879        1:?        2:Y       0.682 
+      880        1:?        1:N       0.948 
+      881        1:?        1:N       0.926 
+      882        1:?        1:N       0.67 
+      883        1:?        2:Y       1 
+      884        1:?        1:N       0.833 
+      885        1:?        1:N       0.67 
+      886        1:?        1:N       0.93 
+      887        1:?        1:N       1 
+      888        1:?        1:N       0.952 
+      889        1:?        1:N       0.895 
+      890        1:?        1:N       0.978 
+      891        1:?        1:N       1 
+      892        1:?        1:N       0.999 
+      893        1:?        1:N       0.671 
+      894        1:?        1:N       1 
+      895        1:?        1:N       0.988 
+      896        1:?        1:N       1 
+      897        1:?        1:N       0.991 
+      898        1:?        1:N       0.98 
+      899        1:?        1:N       0.988 
+      900        1:?        1:N       0.998 
+      901        1:?        1:N       0.988 
+      902        1:?        2:Y       1 
+      903        1:?        1:N       0.776 
+      904        1:?        1:N       0.569 
+      905        1:?        1:N       0.929 
+      906        1:?        1:N       1 
+      907        1:?        1:N       0.929 
+      908        1:?        1:N       0.907 
+      909        1:?        1:N       0.928 
+      910        1:?        1:N       0.82 
+      911        1:?        1:N       0.998 
+      912        1:?        1:N       0.958 
+      913        1:?        1:N       0.999 
+      914        1:?        1:N       0.732 
+      915        1:?        2:Y       1 
+      916        1:?        2:Y       0.951 
+      917        1:?        1:N       0.944 
+      918        1:?        1:N       0.992 
+      919        1:?        1:N       0.988 
+      920        1:?        1:N       0.98 
+      921        1:?        1:N       0.988 
+      922        1:?        1:N       0.964 
+      923        1:?        1:N       0.999 
+      924        1:?        1:N       0.964 
+      925        1:?        2:Y       0.971 
+      926        1:?        1:N       0.978 
+      927        1:?        1:N       0.984 
+      928        1:?        2:Y       0.957 
+      929        1:?        1:N       0.938 
+      930        1:?        1:N       0.988 
+      931        1:?        1:N       0.875 
+      932        1:?        1:N       0.839 
+      933        1:?        1:N       0.594 
+      934        1:?        1:N       1 
+      935        1:?        1:N       0.979 
+      936        1:?        1:N       0.999 
+      937        1:?        1:N       0.964 
+      938        1:?        1:N       0.946 
+      939        1:?        1:N       0.958 
+      940        1:?        1:N       0.988 
+      941        1:?        1:N       0.979 
+      942        1:?        1:N       0.855 
+      943        1:?        1:N       0.979 
+      944        1:?        1:N       1 
+      945        1:?        2:Y       0.992 
+      946        1:?        2:Y       0.967 
+      947        1:?        1:N       0.979 
+      948        1:?        1:N       0.983 
+      949        1:?        1:N       0.988 
+      950        1:?        1:N       0.997 
+      951        1:?        1:N       0.967 
+      952        1:?        1:N       0.869 
+      953        1:?        1:N       0.771 
+      954        1:?        1:N       0.969 
+      955        1:?        1:N       0.768 
+      956        1:?        1:N       0.955 
+      957        1:?        1:N       0.954 
+      958        1:?        1:N       0.978 
+      959        1:?        1:N       0.914 
+      960        1:?        1:N       0.992 
+      961        1:?        2:Y       0.991 
+      962        1:?        1:N       0.988 
+      963        1:?        1:N       0.992 
+      964        1:?        2:Y       0.631 
+      965        1:?        2:Y       0.937 
+      966        1:?        1:N       0.987 
+      967        1:?        1:N       0.987 
+      968        1:?        1:N       0.944 
+      969        1:?        1:N       0.978 
+      970        1:?        1:N       0.995 
+      971        1:?        1:N       0.987 
+      972        1:?        1:N       0.999 
+      973        1:?        2:Y       0.979 
+      974        1:?        1:N       0.987 
+      975        1:?        2:Y       0.913 
+      976        1:?        1:N       0.987 
+      977        1:?        1:N       0.987 
+      978        1:?        1:N       0.987 
+      979        1:?        2:Y       0.868 
+      980        1:?        1:N       0.978 
+      981        1:?        1:N       0.887 
+      982        1:?        2:Y       1 
+      983        1:?        1:N       0.921 
+      984        1:?        2:Y       1 
+      985        1:?        2:Y       1 
+      986        1:?        2:Y       0.996 
+      987        1:?        1:N       0.891 
+      988        1:?        1:N       0.954 
+      989        1:?        1:N       0.977 
+      990        1:?        1:N       0.977 
+      991        1:?        1:N       0.953 
+      992        1:?        1:N       0.745 
+      993        1:?        1:N       0.918 
+      994        1:?        1:N       0.987 
+      995        1:?        1:N       0.987 
+      996        1:?        2:Y       1 
+      997        1:?        1:N       0.987 
+      998        1:?        1:N       0.987 
+      999        1:?        1:N       0.903 
+     1000        1:?        1:N       0.874 
+     1001        1:?        2:Y       0.99 
+     1002        1:?        2:Y       0.998 
+     1003        1:?        1:N       0.977 
+     1004        1:?        1:N       0.991 
+     1005        1:?        2:Y       0.707 
+     1006        1:?        1:N       0.987 
+     1007        1:?        1:N       0.964 
+     1008        1:?        1:N       0.975 
+     1009        1:?        1:N       0.987 
+     1010        1:?        1:N       0.977 
+     1011        1:?        1:N       0.977 
+     1012        1:?        1:N       0.847 
+     1013        1:?        1:N       0.994 
+     1014        1:?        1:N       0.987 
+     1015        1:?        1:N       0.661 
+     1016        1:?        1:N       0.948 
+     1017        1:?        1:N       0.836 
+     1018        1:?        2:Y       1 
+     1019        1:?        2:Y       0.972 
+     1020        1:?        2:Y       0.735 
+     1021        1:?        1:N       0.66 
+     1022        1:?        2:Y       0.882 
+     1023        1:?        1:N       0.982 
+     1024        1:?        1:N       1 
+     1025        1:?        1:N       0.718 
+     1026        1:?        1:N       0.721 
+     1027        1:?        1:N       0.914 
+     1028        1:?        1:N       0.973 
+     1029        1:?        1:N       0.906 
+     1030        1:?        1:N       0.976 
+     1031        1:?        1:N       0.986 
+     1032        1:?        1:N       0.996 
+     1033        1:?        1:N       1 
+     1034        1:?        2:Y       0.67 
+     1035        1:?        1:N       0.909 
+     1036        1:?        1:N       0.867 
+     1037        1:?        1:N       0.999 
+     1038        1:?        1:N       0.962 
+     1039        1:?        1:N       0.987 
+     1040        1:?        1:N       0.986 
+     1041        1:?        2:Y       0.83 
+     1042        1:?        1:N       0.986 
+     1043        1:?        1:N       0.936 
+     1044        1:?        1:N       0.901 
+     1045        1:?        1:N       0.978 
+     1046        1:?        2:Y       0.998 
+     1047        1:?        1:N       0.668 
+     1048        1:?        1:N       0.999 
+     1049        1:?        1:N       0.996 
+     1050        1:?        1:N       0.999 
+     1051        1:?        1:N       1 
+     1052        1:?        1:N       0.986 
+     1053        1:?        1:N       0.986 
+     1054        1:?        1:N       0.949 
+     1055        1:?        1:N       0.993 
+     1056        1:?        2:Y       0.885 
+     1057        1:?        2:Y       0.649 
+     1058        1:?        2:Y       0.598 
+     1059        1:?        1:N       0.778 
+     1060        1:?        1:N       0.837 
+     1061        1:?        2:Y       0.664 
+     1062        1:?        1:N       0.841 
+     1063        1:?        1:N       0.729 
+     1064        1:?        1:N       0.78 
+     1065        1:?        2:Y       0.935 
+     1066        1:?        2:Y       1 
+     1067        1:?        2:Y       0.927 
+     1068        1:?        1:N       0.985 
+     1069        1:?        2:Y       0.81 
+     1070        1:?        1:N       0.898 
+     1071        1:?        1:N       0.779 
+     1072        1:?        2:Y       0.794 
+     1073        1:?        1:N       0.985 
+     1074        1:?        1:N       0.999 
+     1075        1:?        2:Y       1 
+     1076        1:?        1:N       0.985 
+     1077        1:?        1:N       0.998 
+     1078        1:?        1:N       0.978 
+     1079        1:?        2:Y       1 
+     1080        1:?        2:Y       0.595 
+     1081        1:?        2:Y       0.595 
+     1082        1:?        1:N       0.984 
+     1083        1:?        1:N       0.984 
+     1084        1:?        1:N       0.589 
+     1085        1:?        1:N       0.998 
+     1086        1:?        2:Y       0.825 
+     1087        1:?        2:Y       0.764 
+
+=== Evaluation on test set ===
+
+Time taken to test model on supplied test set: 0.21 seconds
+
+=== Summary ===
+
+Total Number of Instances                0     
+Ignored Class Unknown Instances               1087     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         N
+                 0.000    0.000    0.000      0.000    0.000      0.000    ?         ?         Y
+Weighted Avg.    NaN      NaN      NaN        NaN      NaN        NaN      NaN       NaN       
+
+=== Confusion Matrix ===
+
+ a b   <-- classified as
+ 0 0 | a = N
+ 0 0 | b = Y
+
